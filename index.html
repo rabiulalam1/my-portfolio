@@ -5,7 +5,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous"/>
     <title>Rabiul's Portfolio</title>
   </head>
   <body>
@@ -135,27 +136,66 @@
     </section>
 
     <section id="skills">
+      <div class="skill-tag"><h3>Skills</h3></div>
       <div class="skill-icon">
-        <img src="./images/html5-brands.svg" alt="" />
-        <img src="./images/css3-alt-brands.svg" alt="" />
-        <img src="./images/js-brands.svg" alt="" />
-        <img src="./images/python-brands.svg" alt="" />
+        <ul>
+          <li><img src="./images/html5-brands.svg" alt="" /></li>
+          <li><img src="./images/css3-alt-brands.svg" alt="" /></li>
+          <li><img src="./images/js-brands.svg" alt="" /></li>
+          <li><img src="./images/python-brands.svg" alt="" /></li>
+          <li><img src="./images/node-brands.svg" alt=""></li>
+          <li><img src="./images/react-brands.svg" alt=""></li>
+          <li><img src="./images/angular-brands.svg" alt=""></li>
+        </ul>
       </div>
     </section>
 
     <section id="contact-me">
-      <div id="about-me">
-        <img src="" alt="my-picture" />
-        <article>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic, illum
-          est! Aspernatur voluptas.
-        </article>
+      <div class="contact-header">
+        <h3>Contact Me</h3>
       </div>
+      <div class="contact-container">
+        <div class="contact-info">
+          <div class="contact-box">
+            <div class="contact-img">
+              <img src="./images/undraw_male_avatar_323b.svg" alt="my-image">
+            </div>
+            <div class="contact-text">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+          </div>
+          <div class="contact-box">
+            <div class="contact-img">
+              <ul>
+                <li><a href=""><i class="fa fa-linkedin"></i></a></li>
+                <li><a href=""><i class="fa fa-slack"></i></a></li>
+                <li><a href=""><i class="fa fa-twitter"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
 
-      <div id="contact me">
-        <form action=""></form>
+        <div class="contact-form">
+          <form action="">
+            <h3>Send Message</h3>
+            <div class="input-box">
+              <input type="text name=" required="required">
+              <span>Full Name</span>
+            </div>
+            <div class="input-box">
+              <input type="text name=" required="required">
+              <span>Email</span>
+            </div>
+            <div class="input-box">
+              <textarea name="" id="" cols="10" rows="10" required="required"></textarea>
+              <span>Type your message...</span>
+            </div>
+            <div class="input-box">
+              <input type="submit" name="" value="Send">
+            </div>
+          </form>
+        </div>
       </div>
-      <i class="fab fa-html5"></i>
     </section>
 
     <script src="./javascript.js"></script>
