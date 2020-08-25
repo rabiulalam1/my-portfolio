@@ -8,7 +8,7 @@ window.addEventListener("scroll", function () {
 //Sliding Menu Indicator
 
 let marker = document.querySelector(".marker");
-let menuItem = document.querySelectorAll("nav a");
+let menuItem = document.querySelectorAll(".menu");
 
 function indicator(e) {
   marker.classList.add("marker-active");
