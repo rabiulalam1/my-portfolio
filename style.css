@@ -238,7 +238,7 @@ h2 {
 /* Contact Me */
 
 #contact-me {
-  padding-top: 4%;
+  padding-top: 6%;
   padding-bottom: 2%;
   background: #eef5b2;
   display: flex;
@@ -257,7 +257,7 @@ h2 {
   font-size: 3em;
   text-decoration: underline;
   color: rgba(0, 0, 0, 0.8);
-  margin: 40px;
+  margin-bottom: 10%;
 }
 
 .contact-container {
@@ -265,7 +265,7 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 40px;
+  margin-top: 0;
 }
 
 .contact-container .contact-info {
@@ -282,7 +282,7 @@ h2 {
 }
 
 .contact-container .contact-info .contact-box .contact-img img {
-  height: 230px;
+  height: 280px;
 }
 .contact-container .contact-info .contact-box .contact-img {
   display: flex;
